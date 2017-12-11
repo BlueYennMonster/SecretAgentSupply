@@ -1,0 +1,143 @@
+html {	
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+header {
+	background-color: black;
+}
+
+header img {
+	height: 1.5rem;
+    padding: 0.66rem 1rem 0.66rem 0.5rem;
+}
+
+header p {
+	display: inline-block;
+	font-size: 1rem;
+	padding: 0.66rem 0rem 0.66rem 0rem;
+	color: white;
+}
+
+footer {
+	background-color: black;
+}
+
+footer .container {
+	height: 5rem;
+}
+
+footer p {
+	color: white;
+}
+
+.news {
+	background-image: url('../images/moto.jpeg');
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.container {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.flex-v-center {
+	display: flex;
+	align-items: center;
+}
+
+.flex-h-center {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.news {
+	height: 25rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.news .container{
+	height: 25rem;
+	font-weight: bold;
+	justify-content: flex-start;
+}
+
+.news-item {
+	padding: 2rem 3rem;
+	background-color: black;
+	color: white;
+	width: 20rem;
+}
+
+.large {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+.menu {
+	background-color: firebrick;
+	color: white;
+}
+
+.menu .container {
+	padding: 0.75rem 0rem;
+}
+
+.content .container {
+  padding-top: 3rem;
+}
+
+.item {
+	width: 30%;
+	border: 4px solid black;
+
+}
+
+.item img {
+    max-width: 8em;
+}
+
+.item div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 9rem;
+	padding: 2rem 0rem;
+}
+
+.item p {
+	background-color: black;
+	color: white;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.details-header {
+	padding: 1rem 2rem 1rem 2rem;
+	color: white;
+	background-color: black;
+}
+
+.details {
+	width: 35%;
+	margin-bottom: 4rem;
+}
+
+.details span {
+	display:inline-block;
+	margin-top: 0.5rem;
+}
